@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Inter", "sans-serif";
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.lead-text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #323b4b;
+}
+
+.small-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8a94a6;
+}
+
+.form-check-input:focus,
+.form-select:focus,
+.btn:focus,
+.form-control:focus {
+  box-shadow: none;
+  border-color: #d4d4d4;
+}
+
+.signin-wrapper .signin-inner {
+  background-image: url("./images/login_bg.svg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper {
+  padding: 72px;
+  width: 480px;
+  background-color: white;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  box-shadow: 0px 23px 194px rgba(137, 137, 137, 0.1);
+}
+.signin-wrapper .signin-inner .signin-form-wrapper a {
+  width: 150px;
+  display: block;
+  margin-bottom: 30px;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper a img {
+  width: 100%;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper h2 {
+  margin-bottom: 5px;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper p {
+  margin-bottom: 15px;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper .icon-input {
+  position: relative;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper .icon-input i {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper .icon-input input {
+  padding-left: 40px;
+  color: #323b4b;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper .form-label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #323b4b;
+}
+.signin-wrapper .signin-inner .signin-form-wrapper .btn {
+  background-color: #2568e7;
+  font-size: 14px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 0;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.signin-wrapper .signin-inner.server {
+  background-image: url("./images/server_login_bg.svg");
+}
+
+@media (max-width: 480.98px) {
+  .signin-wrapper .signin-inner .signin-form-wrapper {
+    padding: 30px 15px;
+    width: 300px;
+  }
+}/*# sourceMappingURL=app.css.map */
