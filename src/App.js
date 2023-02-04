@@ -6,7 +6,7 @@ import Home from "./pages/home/Home";
 
 function App() {
 	return (
-		<HashRouter>
+		<BrowserRouter>
 			<Routes>
 				<Route path="/iocanix" element={<Home></Home>}></Route>
 				<Route path="/iocanix/signin" element={<Signin></Signin>}></Route>
@@ -15,7 +15,7 @@ function App() {
 					element={<Serverlogin></Serverlogin>}
 				></Route>
 			</Routes>
-		</HashRouter>
+		</BrowserRouter>
 	);
 }
 
