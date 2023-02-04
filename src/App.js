@@ -1,15 +1,12 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter, HashRouter } from "react-router-dom";
 import "./App.css";
 import Serverlogin from "./pages/signin/Serverlogin";
 import Signin from "./pages/signin/Signin";
-import Home from './pages/home/Home';
-
-
-
+import Home from "./pages/home/Home";
 
 function App() {
-  return (
-		<BrowserRouter>
+	return (
+		<HashRouter>
 			<Routes>
 				<Route path="/iocanix" element={<Home></Home>}></Route>
 				<Route path="/iocanix/signin" element={<Signin></Signin>}></Route>
@@ -18,7 +15,7 @@ function App() {
 					element={<Serverlogin></Serverlogin>}
 				></Route>
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
