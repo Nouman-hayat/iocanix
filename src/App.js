@@ -8,10 +8,10 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/iocanix" element={<Home></Home>}></Route>
-				<Route path="/iocanix/signin" element={<Signin></Signin>}></Route>
+				<Route path="/" element={<Home></Home>}></Route>
+				<Route path="/signin" element={<Signin></Signin>}></Route>
 				<Route
-					path="/iocanix/serverlogin"
+					path="/serverlogin"
 					element={<Serverlogin></Serverlogin>}
 				></Route>
 			</Routes>
