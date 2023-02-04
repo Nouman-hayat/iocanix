@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/iocanix/static/css/main.e6f64a6c.css",
-    "main.js": "/iocanix/static/js/main.8bc97dc6.js",
+    "main.js": "/iocanix/static/js/main.caa8d158.js",
     "static/js/787.28cb0dcd.chunk.js": "/iocanix/static/js/787.28cb0dcd.chunk.js",
     "static/media/server_login_bg.svg": "/iocanix/static/media/server_login_bg.413d45ee61acb26d1552.svg",
     "static/media/login_bg.svg": "/iocanix/static/media/login_bg.c730f904cc5c9b31cf38.svg",
     "index.html": "/iocanix/index.html",
     "main.e6f64a6c.css.map": "/iocanix/static/css/main.e6f64a6c.css.map",
-    "main.8bc97dc6.js.map": "/iocanix/static/js/main.8bc97dc6.js.map",
+    "main.caa8d158.js.map": "/iocanix/static/js/main.caa8d158.js.map",
     "787.28cb0dcd.chunk.js.map": "/iocanix/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6f64a6c.css",
-    "static/js/main.8bc97dc6.js"
+    "static/js/main.caa8d158.js"
   ]
 }
